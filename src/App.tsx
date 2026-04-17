@@ -237,7 +237,7 @@ export default function App() {
         {/* HOMEPAGE */}
         {currentView === 'home' && (
            <motion.div key="home" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, scale: 0.95 }} className="m-auto max-w-3xl text-center px-6">
-              <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6" style={{ transition: 'var(--ui-transition)' }}>用户界面类型指标</h1>
+              <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6" style={{ transition: 'var(--ui-transition)' }}>界面美学人格测试</h1>
               <h2 className="text-2xl md:text-3xl opacity-80 mb-8 font-serif italic">The UITI Assessment</h2>
               <p className="text-lg md:text-xl font-medium leading-relaxed max-w-2xl mx-auto mb-12 opacity-80" style={{ fontFamily: '"Inter", sans-serif' }}>
                  发现你的数字美学人格碎片。每一次偏好选择，界面的外观、材质、动态和排版都将实时发生<b>形态演变</b>，直至呈现出你潜意识中最真实的UI世界。
