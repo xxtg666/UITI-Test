@@ -225,7 +225,7 @@ export default function App() {
                <Layers className="w-4 h-4"/> 16款人格
              </button>
            )}
-           <a href="https://github.com/your-username/uiti-assessment" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm font-semibold hover:opacity-70 transition-opacity">
+           <a href="https://github.com/xxtg666/UITI-Test" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm font-semibold hover:opacity-70 transition-opacity">
               <Github className="w-4 h-4" /> GitHub
            </a>
         </div>
